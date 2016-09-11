@@ -14,10 +14,11 @@
 class User;
 class DeclarationBaseViewModel;
 
-class DeclarationBaseView
+class IDeclarationBaseView
 {
 public:
-    virtual void setUser(User user);
+    // pure virtual function
+    virtual void setUser(User user) = 0;
     
     
     

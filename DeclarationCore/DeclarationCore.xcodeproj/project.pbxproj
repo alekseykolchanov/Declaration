@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E68EF7291D85699E00CDB112 /* Declaration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68EF7271D85699E00CDB112 /* Declaration.cpp */; };
 		E68EF72D1D856BBD00CDB112 /* DeclarationBaseViewModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68EF72B1D856BBD00CDB112 /* DeclarationBaseViewModel.cpp */; };
-		E68EF7341D856C4800CDB112 /* DeclarationBaseView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68EF7321D856C4800CDB112 /* DeclarationBaseView.cpp */; };
+		E68EF7341D856C4800CDB112 /* IDeclarationBaseView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68EF7321D856C4800CDB112 /* IDeclarationBaseView.cpp */; };
 		E6B921E01D83F73200BAF7F0 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B921DE1D83F73200BAF7F0 /* User.cpp */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		E68EF7281D85699E00CDB112 /* Declaration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Declaration.hpp; sourceTree = "<group>"; };
 		E68EF72B1D856BBD00CDB112 /* DeclarationBaseViewModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeclarationBaseViewModel.cpp; sourceTree = "<group>"; };
 		E68EF72C1D856BBD00CDB112 /* DeclarationBaseViewModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DeclarationBaseViewModel.hpp; sourceTree = "<group>"; };
-		E68EF7321D856C4800CDB112 /* DeclarationBaseView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeclarationBaseView.cpp; sourceTree = "<group>"; };
-		E68EF7331D856C4800CDB112 /* DeclarationBaseView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DeclarationBaseView.hpp; sourceTree = "<group>"; };
+		E68EF7321D856C4800CDB112 /* IDeclarationBaseView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IDeclarationBaseView.cpp; sourceTree = "<group>"; };
+		E68EF7331D856C4800CDB112 /* IDeclarationBaseView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IDeclarationBaseView.hpp; sourceTree = "<group>"; };
 		E68EF7351D8571AE00CDB112 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		E68EF7361D8571EF00CDB112 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
 		E6B921D11D83F6DC00BAF7F0 /* libDeclarationCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDeclarationCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,8 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				E68EF7351D8571AE00CDB112 /* View.h */,
-				E68EF7321D856C4800CDB112 /* DeclarationBaseView.cpp */,
-				E68EF7331D856C4800CDB112 /* DeclarationBaseView.hpp */,
+				E68EF7321D856C4800CDB112 /* IDeclarationBaseView.cpp */,
+				E68EF7331D856C4800CDB112 /* IDeclarationBaseView.hpp */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68EF7341D856C4800CDB112 /* DeclarationBaseView.cpp in Sources */,
+				E68EF7341D856C4800CDB112 /* IDeclarationBaseView.cpp in Sources */,
 				E68EF7291D85699E00CDB112 /* Declaration.cpp in Sources */,
 				E68EF72D1D856BBD00CDB112 /* DeclarationBaseViewModel.cpp in Sources */,
 				E6B921E01D83F73200BAF7F0 /* User.cpp in Sources */,

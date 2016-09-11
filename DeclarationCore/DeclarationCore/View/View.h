@@ -9,6 +9,6 @@
 #ifndef View_h
 #define View_h
 
-#include "DeclarationBaseView.hpp"
+#include "IDeclarationBaseView.hpp"
 
 #endif /* View_h */

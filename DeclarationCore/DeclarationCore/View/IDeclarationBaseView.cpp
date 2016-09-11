@@ -6,4 +6,4 @@
 //  Copyright © 2016 Aleksei Kolchanov. All rights reserved.
 //
 
-#include "DeclarationBaseView.hpp"
+#include "IDeclarationBaseView.hpp"

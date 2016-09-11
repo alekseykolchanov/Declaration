@@ -10,10 +10,10 @@
 #define DeclarationBaseViewModel_hpp
 
 #include <stdio.h>
-#include "DeclarationBaseView.hpp"
+
 
 #include "Declaration.hpp"
-#include "DeclarationBaseView.hpp"
+#include "IDeclarationBaseView.hpp"
 
 
 using namespace std;
@@ -22,7 +22,7 @@ class DeclarationBaseViewModel
 {
 public:
     Declaration m_declaration;
-    DeclarationBaseView *m_view;
+    IDeclarationBaseView *m_view;
 
     
 };

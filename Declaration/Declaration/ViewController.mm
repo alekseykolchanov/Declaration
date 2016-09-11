@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     DeclarationBaseViewModel *viewModel = new DeclarationBaseViewModel;
-    viewModel->m_view = dynamic_cast<DeclarationBaseView *>(self);
+    viewModel->m_view = (__bridge class IDeclarationBaseView *)(self);
     
     User *user = new User;
     user->setName("Aleksei");
