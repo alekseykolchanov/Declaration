@@ -10,5 +10,7 @@
 #define DeclarationCore_h
 
 #include "Model.h"
+#include "ViewModel.h"
+#include "View.h"
 
 #endif /* DeclarationCore_h */

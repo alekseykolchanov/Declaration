@@ -10,5 +10,6 @@
 #define Model_h
 
 #include "User.hpp"
+#include "Declaration.hpp"
 
 #endif /* Model_h */

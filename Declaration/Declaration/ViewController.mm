@@ -11,7 +11,6 @@
 
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
@@ -20,12 +19,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    DeclarationBaseViewModel *viewModel = new DeclarationBaseViewModel;
+    viewModel->m_view = dynamic_cast<DeclarationBaseView *>(self);
+    
     User *user = new User;
     user->setName("Aleksei");
     NSLog(@"%@", [NSString stringWithCString:user->name().c_str() encoding:NSUTF8StringEncoding]);
     
     delete user;
 }
+
+- (void) setUser:(User)user {
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
